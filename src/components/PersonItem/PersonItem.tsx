@@ -8,10 +8,7 @@ type PersonProps = {
   currentSlug: string;
 };
 
-export const PersonItem: React.FC<PersonProps> = ({
-  person,
-  currentSlug,
-}) => {
+export const PersonItem: React.FC<PersonProps> = ({ person, currentSlug }) => {
   const {
     slug,
     name,
